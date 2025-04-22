@@ -6,7 +6,7 @@ Using [Robot Framework](https://docs.robotframework.org/)
 
 ```bash
 uv pip install -r requirements.txt
-rfbrowser init
+uv run rfbrowser init
 ```
 
 ## Resources
