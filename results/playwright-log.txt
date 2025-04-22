@@ -1,0 +1,53 @@
+{"level":30,"time":"2025-04-22T23:48:44.039Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Listening on 61433"}
+(node:28280) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-22T23:48:44.245Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-22T23:48:49.491Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-04-22T23:48:49.492Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-22T23:48:49.492Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-22T23:48:49.500Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-22T23:48:49.500Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-04-22T23:48:49.500Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-22T23:48:49.500Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Trace file: "}
+{"level":30,"time":"2025-04-22T23:48:49.513Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Changed active context"}
+{"level":30,"time":"2025-04-22T23:48:49.514Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-22T23:48:49.521Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-22T23:48:49.522Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-22T23:48:49.915Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-22T23:48:49.915Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Changed active page"}
+{"level":30,"time":"2025-04-22T23:48:53.803Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-22T23:48:56.811Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-22T23:48:56.831Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Removed page=ce3e86be-a27d-41a7-a79e-acaee8f74af9 from context=ecbdcd70-7ebe-449a-bd57-17c2f098d40f page stack"}
+{"level":30,"time":"2025-04-22T23:48:56.996Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-22T23:48:57.044Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-22T23:48:57.044Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-22T23:48:57.093Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-22T23:48:57.093Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-22T23:48:57.174Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-22T23:48:57.175Z","pid":28280,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method closeAllBrowsers"}
