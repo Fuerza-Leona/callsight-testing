@@ -5,18 +5,21 @@
 
 # Test Setup    Setup
 # Test Teardown    Teardown
-
+Documentation    Prueba de Login
+Library         Browser
 *** Test Cases *** 
 
 CP01 Login
-  [Documentation]    Aqui va info de la prueba en particular. Hecho por FER MONROY
-  [Tags]             cp1 integration clientes
+  #[Tags]             cp1 integration clientes
   log     Inicia la prueba
-  New Browser    chromium    headless=True
-  #New browser    firefox
+  New Browser    chromium    headless=False
   New Context    viewport={'width': 1280, 'height': 720}
-  New Page     https://automationplayground.com/crm/
+  New Page     https://callsight.vercel.app/login
+  Fill Text        css=input#email   "a00836245@tec.mx"
+  Fill Text        css=input#password   "pass1234"
+  Click           "Log in"
   Sleep     3s
   Close Browser
 
 *** Keywords ***
+
