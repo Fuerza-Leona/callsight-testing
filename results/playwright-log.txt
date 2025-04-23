@@ -1,118 +1,76 @@
-{"level":30,"time":"2025-04-23T04:33:57.715Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Listening on 56156"}
-(node:4672) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-04-23T05:23:19.261Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Listening on 60617"}
+(node:30648) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-04-23T04:33:58.034Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-04-23T04:33:58.610Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
-{"level":30,"time":"2025-04-23T04:33:58.612Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-04-23T04:33:58.611Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-04-23T04:33:58.654Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-04-23T04:33:58.654Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2025-04-23T04:33:58.654Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-23T04:33:58.654Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Trace file: "}
-{"level":30,"time":"2025-04-23T04:33:58.754Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Changed active context"}
-{"level":30,"time":"2025-04-23T04:33:58.755Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method newContext"}
-{"level":30,"time":"2025-04-23T04:33:58.769Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-04-23T04:33:58.770Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-23T04:33:59.304Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Video path: undefined"}
-{"level":30,"time":"2025-04-23T04:33:59.305Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Changed active page"}
-{"level":30,"time":"2025-04-23T04:34:00.916Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method newPage"}
-{"level":30,"time":"2025-04-23T04:34:00.927Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-23T04:34:00.928Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with css=input#email in page."}
-{"level":30,"time":"2025-04-23T04:34:01.010Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-23T04:34:01.021Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-23T04:34:01.022Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with css=input#email in page."}
-{"level":30,"time":"2025-04-23T04:34:01.062Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-23T04:34:01.073Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-23T04:34:01.073Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with css=input#password in page."}
-{"level":30,"time":"2025-04-23T04:34:01.106Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-23T04:34:01.114Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-23T04:34:01.114Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with \"Log In\" in page."}
-{"level":30,"time":"2025-04-23T04:34:01.215Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method click"}
-{"level":30,"time":"2025-04-23T04:34:01.225Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-23T04:34:01.226Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with \"Logout\" in page."}
-{"level":30,"time":"2025-04-23T04:34:02.603Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-23T04:34:02.612Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2025-04-23T04:34:02.632Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Removed page=f4a1191c-d2d9-45fc-a280-bbd59c4c4128 from context=305b95e0-0337-4204-b7c6-4adfefb98051 page stack"}
-{"level":30,"time":"2025-04-23T04:34:03.355Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-04-23T05:23:19.688Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-23T05:23:19.908Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-04-23T05:23:19.909Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-23T05:23:19.909Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-23T05:23:19.919Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-23T05:23:19.919Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-04-23T05:23:19.920Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-23T05:23:19.920Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Trace file: "}
+{"level":30,"time":"2025-04-23T05:23:19.939Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Changed active context"}
+{"level":30,"time":"2025-04-23T05:23:19.940Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-23T05:23:19.948Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-23T05:23:19.949Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-23T05:23:20.080Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-23T05:23:20.080Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Changed active page"}
+{"level":30,"time":"2025-04-23T05:23:24.559Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-23T05:23:24.568Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-23T05:23:24.569Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with css=input#email in page."}
+{"level":30,"time":"2025-04-23T05:23:24.642Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-23T05:23:24.652Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-23T05:23:24.653Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with css=input#email in page."}
+{"level":30,"time":"2025-04-23T05:23:24.697Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-23T05:23:24.705Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-23T05:23:24.706Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with css=input#password in page."}
+{"level":30,"time":"2025-04-23T05:23:24.734Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method fillText"}
+{"level":30,"time":"2025-04-23T05:23:24.742Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-23T05:23:24.742Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with \"Log In\" in page."}
+{"level":30,"time":"2025-04-23T05:23:24.820Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method click"}
+{"level":30,"time":"2025-04-23T05:23:24.829Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-23T05:23:24.830Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with \"Logout\" in page."}
+{"level":30,"time":"2025-04-23T05:23:26.225Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-23T05:23:26.236Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-23T05:23:26.236Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with \"Mi perfil\" in page."}
+{"level":30,"time":"2025-04-23T05:23:26.249Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-23T05:23:26.259Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-23T05:23:26.260Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with \"Mi perfil\" in page."}
+{"level":30,"time":"2025-04-23T05:23:26.322Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method click"}
+{"level":30,"time":"2025-04-23T05:23:26.339Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-04-23T05:23:26.339Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with \"Añadir cliente\" in page."}
+{"level":30,"time":"2025-04-23T05:23:27.703Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-04-23T05:23:27.714Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-04-23T05:23:27.714Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with SearchBar in page."}
+{"level":30,"time":"2025-04-23T05:23:37.720Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Error of node method  fillText"}
 ================= Original suppressed error =================
-Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:12223:15)
-    at PlaywrightServer.getActiveBrowser (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:13119:59)
-    at PlaywrightServer.setTimeout (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:13367:57)
-    at Object.onReceiveHalfClose (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+locator.fill: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('SearchBar')[22m
+
+    at fillText (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:11847:17)
+    at async PlaywrightServer.fillText (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'TimeoutError'
+}
 =============================================================
-{"level":30,"time":"2025-04-23T04:34:03.426Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-23T04:34:03.427Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-23T04:34:03.433Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-23T04:34:03.434Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-23T04:34:03.443Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-04-23T04:34:03.937Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
-{"level":30,"time":"2025-04-23T04:34:03.937Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-04-23T04:34:03.937Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-04-23T04:34:03.947Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-04-23T04:34:03.947Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2025-04-23T04:34:03.947Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-23T04:34:03.947Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Trace file: "}
-{"level":30,"time":"2025-04-23T04:34:03.972Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Changed active context"}
-{"level":30,"time":"2025-04-23T04:34:03.973Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method newContext"}
-{"level":30,"time":"2025-04-23T04:34:04.001Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-04-23T04:34:04.001Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-04-23T04:34:04.469Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Video path: undefined"}
-{"level":30,"time":"2025-04-23T04:34:04.469Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Changed active page"}
-{"level":30,"time":"2025-04-23T04:34:06.436Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method newPage"}
-{"level":30,"time":"2025-04-23T04:34:06.444Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-23T04:34:06.445Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with css=input#email in page."}
-{"level":30,"time":"2025-04-23T04:34:06.529Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-23T04:34:06.538Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-23T04:34:06.538Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with css=input#email in page."}
-{"level":30,"time":"2025-04-23T04:34:06.579Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-23T04:34:06.595Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-04-23T04:34:06.595Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with css=input#password in page."}
-{"level":30,"time":"2025-04-23T04:34:06.617Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method fillText"}
-{"level":30,"time":"2025-04-23T04:34:06.625Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method click"}
-{"level":30,"time":"2025-04-23T04:34:06.626Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with \"Log In\" in page."}
-{"level":30,"time":"2025-04-23T04:34:06.727Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method click"}
-{"level":30,"time":"2025-04-23T04:34:06.735Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-04-23T04:34:06.735Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Strict mode is enabled, find Locator with \"Invalid credentials: Invalid login credentials\" in page."}
-{"level":30,"time":"2025-04-23T04:34:07.577Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-04-23T04:34:07.586Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2025-04-23T04:34:07.600Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Removed page=e81b1927-0020-4114-b23c-9fc3adf996ba from context=ad2156be-bff9-46e7-9f78-81e6eff41dbe page stack"}
-{"level":30,"time":"2025-04-23T04:34:08.194Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method closeBrowser"}
-================= Original suppressed error =================
-Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:12223:15)
-    at PlaywrightServer.getActiveBrowser (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:13119:59)
-    at PlaywrightServer.setTimeout (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:13367:57)
-    at Object.onReceiveHalfClose (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
-=============================================================
-{"level":30,"time":"2025-04-23T04:34:08.260Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-23T04:34:08.260Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method getBrowserCatalog"}
-================= Original suppressed error =================
-Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:12223:15)
-    at PlaywrightServer.getActiveBrowser (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:13119:59)
-    at PlaywrightServer.setTimeout (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\index.js:13367:57)
-    at Object.onReceiveHalfClose (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (C:\Users\mmari\OneDrive\Documentos\GitHub\callsight-testing\venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
-    at ServerHttp2Stream.emit (node:events:530:35)
-    at endReadableNT (node:internal/streams/readable:1698:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
-=============================================================
-{"level":30,"time":"2025-04-23T04:34:08.332Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-23T04:34:08.333Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-04-23T04:34:08.476Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-04-23T04:34:08.477Z","pid":4672,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-23T05:23:37.783Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-04-23T05:23:37.783Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","Take screenshot with options: ":{"path":"C:\\Users\\mmari\\OneDrive\\Documentos\\GitHub\\callsight-testing\\results\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-04-23T05:23:37.938Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-04-23T05:23:37.965Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T05:23:37.969Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T05:23:37.974Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T05:23:37.978Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T05:23:37.982Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T05:23:37.986Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T05:23:37.995Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T05:23:37.998Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T05:23:38.012Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Changed active context"}
+{"level":30,"time":"2025-04-23T05:23:38.012Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Changing current active page: page=697e7a1e-ccae-49c9-91aa-9212620d91d5"}
+{"level":30,"time":"2025-04-23T05:23:38.012Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Changed active page"}
+{"level":30,"time":"2025-04-23T05:23:38.017Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-04-23T05:23:38.033Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Removed page=9c6bb8bb-c5ae-4844-862e-d2b22a075aa7 from context=2ab16d6f-0933-4143-bcfc-7b2ce6c70f05 page stack"}
+{"level":30,"time":"2025-04-23T05:23:38.037Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-04-23T05:23:38.053Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T05:23:38.053Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-23T05:23:38.185Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-23T05:23:38.314Z","pid":30648,"hostname":"LAPTOP-SR8KJGH3","msg":"End of node method closeAllBrowsers"}
