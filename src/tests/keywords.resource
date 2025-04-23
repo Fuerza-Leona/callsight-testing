@@ -5,7 +5,7 @@ Documentation     This is a resource file, that can contain variables and keywor
 
 *** Keywords ***
 Reach Login
-    New Browser    chromium    headless=True
+    New Browser    chromium    headless=False
     New Context    viewport={'width': 1280, 'height': 720}
     New Page     https://callsight.vercel.app/login
     #New Page     http://localhost:3000/login
