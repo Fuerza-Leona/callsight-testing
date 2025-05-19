@@ -13,7 +13,6 @@ CP01 Login Successful
 CP02 Incorrect Password
   Reach Login
   Login User    a00836245@tec.mx   pass
-  Click           "Log In"
   Wait For Elements State    "Invalid credentials: Invalid login credentials"    visible    timeout=10s
   Close Browser
 

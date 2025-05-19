@@ -22,6 +22,8 @@ CP04 Buscar Not Found
   Login User    a00836245@tec.mx   pass1234
   Wait For Elements State    "Logout"    visible    timeout=10s
   Wait For Elements State    "Mi perfil"    visible    timeout=10s
+  Sleep    1s
+  Reload
   Click           "Mi perfil"
   Wait For Elements State    "Añadir cliente"    visible    timeout=10s
   Fill Text        css=div.MuiAutocomplete-root input   asdf  

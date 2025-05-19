@@ -6,12 +6,9 @@ Resource    keywords.resource
 
 CP05 Dashboard Successful
   Reach Dashboard
+  Click   "Subir una llamada"
   Close Browser
 
-CP06 Buscar
-  Reach Dashboard
-  Click    "Buscar"
-  Close Browser
 
 *** Keywords ***
 
