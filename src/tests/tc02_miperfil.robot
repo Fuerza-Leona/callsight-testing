@@ -1,36 +1,24 @@
 *** Settings ***
-Documentation    Prueba de Login
+Documentation    Prueba de Perfil
 Library         Browser
 Resource    keywords.resource
 *** Test Cases *** 
 
-CP03 Buscar Successful
-  Reach Login
-  Login User    a00836245@tec.mx   pass1234
-  Wait For Elements State    "Logout"    visible    timeout=10s
-  Wait For Elements State    "Mi perfil"    visible    timeout=10s
-  Click           "Mi perfil"
-  Wait For Elements State    "Añadir cliente"    visible    timeout=10s
-  Fill Text        css=div.MuiAutocomplete-root input   BBV  
-  Click           css=div.MuiPopper-root
-  Scroll To     ${None}  bottom   right
-  Wait For Elements State    "1–1 of 1"     visible    timeout=10s
+CP01 Profile Data
+  Successful Login           ${ADMIN_EMAIL}  ${ADMIN_PASSWORD}
+  Wait For Elements State    text=Rol    visible    timeout=10s
+  Wait For Elements State    text=Departamento    visible    timeout=10s
+  Wait For Elements State    text=Duración promedio por llamada    visible    timeout=10s
+  Wait For Elements State    text=Satisfaccion promedio    visible    timeout=10s
+  Wait For Elements State    text=Llamadas totales    visible    timeout=10s
   Close Browser
 
-CP04 Buscar Not Found
-  Reach Login
-  Login User    a00836245@tec.mx   pass1234
-  Wait For Elements State    "Logout"    visible    timeout=10s
-  Wait For Elements State    "Mi perfil"    visible    timeout=10s
-  Sleep    1s
-  Reload
-  Click           "Mi perfil"
-  Wait For Elements State    "Añadir cliente"    visible    timeout=10s
-  Fill Text        css=div.MuiAutocomplete-root input   asdf  
-  Click           css=div.MuiPopper-root
-  Wait For Elements State    "No options"     visible    timeout=10s
+CP02 Log Out                  ${ADMIN_EMAIL}  ${ADMIN_PASSWORD}
+  Successful Login            a01234354@tec.mx   123456
+  Wait For Elements State     role=button[name="Cerrar sesión"]    visible    timeout=10s
+  Click                       role=button[name="Cerrar sesión"]
+  Wait For Elements State     role=button[name="Iniciar sesión"]    visible    timeout=10s
   Close Browser
-
 
 *** Keywords ***
 
