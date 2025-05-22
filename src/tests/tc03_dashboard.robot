@@ -7,7 +7,7 @@ Resource    keywords.resource
 CP01 Admin Dashboard Data 
   Admin Successful Login
   Reach Dashboard
-  Load Data
+  Load Dashboard Data
   Close Browser
 
 CP02 Admin Change Filters 
@@ -15,13 +15,13 @@ CP02 Admin Change Filters
   Reach Dashboard
   Apply Date Filter
   Apply Filter    clients
-  Load Data
+  Load Dashboard Data
   Deapply Filter    clients
   Apply Filter    agents
-  Load Data
+  Load Dashboard Data
   Deapply Filter    agents
   Apply Filter    companies
-  Load Data
+  Load Dashboard Data
   Deapply Filter    companies
   Close Browser
 
@@ -30,10 +30,10 @@ CP03 Agent Change Filters
   Reach Dashboard
   Apply Date Filter
   Apply Filter    clients
-  Load Data
+  Load Dashboard Data
   Deapply Filter    clients
   Apply Filter    companies
-  Load Data
+  Load Dashboard Data
   Deapply Filter    companies
   Close Browser
 
@@ -48,16 +48,16 @@ Reach Dashboard
     Click           "Análisis de llamada"
     Wait For Elements State    "css=.MuiCircularProgress-root"    hidden    timeout=30s
     
-Load Data
-    ${total_calls}=    Get Text    id=total_calls
+Load Dashboard Data
+    ${total_calls}=    Browser.Get Text    id=total_calls
     Should Not Be Equal    ${total_calls}    ""
     Should Not Contain    ${total_calls}    "Error"
 
-    ${average_rating}=    Get Text    id=average_rating
+    ${average_rating}=    Browser.Get Text    id=average_rating
     Should Not Be Equal    ${average_rating}    ""
     Should Not Contain    ${average_rating}    "Error"
 
-    ${average_time}=      Get Text    id=average_time
+    ${average_time}=      Browser.Get Text    id=average_time
     Should Not Be Equal    ${average_time}    ""
     Should Not Contain    ${average_time}    "Error"
 
