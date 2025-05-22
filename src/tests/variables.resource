@@ -5,3 +5,4 @@ ${AGENT_EMAIL}      fer@callsight.tech
 ${AGENT_PASSWORD}   Pass1234
 ${CLIENT_EMAIL}     miguelmendozaj20@gmail.com
 ${CLIENT_PASSWORD}  123456
+${AUDIO_FILE}     src/tests/files/test.mp3

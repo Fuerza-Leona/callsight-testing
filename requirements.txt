@@ -12,3 +12,4 @@ robotframework-pythonlibcore==4.4.1
 seedir==0.5.0
 setuptools==79.0.0
 wrapt==1.17.2
+robotframework-seleniumlibrary==6.7.1

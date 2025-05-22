@@ -25,17 +25,17 @@ Successful Login
 Admin Successful Login
     Attempt Login    ${ADMIN_EMAIL}    ${ADMIN_PASSWORD}
     Wait For Elements State    "css=.MuiCircularProgress-root"    hidden    timeout=30s
-    ${role}=    Get Text    id=role
+    ${role}=    Browser.Get Text    id=role
     Should Be Equal    ${role}    Admin
 
 Agent Successful Login
     Attempt Login    ${AGENT_EMAIL}    ${AGENT_PASSWORD}
     Wait For Elements State    "css=.MuiCircularProgress-root"    hidden    timeout=30s
-    ${role}=    Get Text    id=role
+    ${role}=    Browser.Get Text    id=role
     Should Be Equal    ${role}    Agente
 
 Client Successful Login
     Attempt Login    ${CLIENT_EMAIL}    ${CLIENT_PASSWORD}
     Wait For Elements State    "css=.MuiCircularProgress-root"    hidden    timeout=30s
-    ${role}=    Get Text    id=role
+    ${role}=    Browser.Get Text    id=role
     Should Be Equal    ${role}    Cliente
