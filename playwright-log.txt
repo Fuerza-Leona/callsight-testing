@@ -1,35 +1,168 @@
-{"level":30,"time":"2025-05-22T02:04:03.755Z","pid":53123,"hostname":"Miguels-MacBook-Air-7.local","msg":"Listening on 56560"}
-(node:53123) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-05-22T23:27:33.260Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Listening on 49428"}
+(node:38847) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-05-22T23:27:34.286Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-05-22T23:27:35.535Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-05-22T23:27:35.535Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-05-22T23:27:35.535Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-05-22T23:27:35.540Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-05-22T23:27:35.540Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-05-22T23:27:35.540Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-05-22T23:27:35.540Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Trace file: "}
+{"level":30,"time":"2025-05-22T23:27:35.544Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Changed active context"}
+{"level":30,"time":"2025-05-22T23:27:35.544Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method newContext"}
+{"level":30,"time":"2025-05-22T23:27:35.547Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-05-22T23:27:35.547Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-05-22T23:27:35.590Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-05-22T23:27:35.590Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Changed active page"}
+{"level":30,"time":"2025-05-22T23:27:36.949Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-05-22T23:27:36.952Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-05-22T23:27:36.952Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with \"Loading...\" in page."}
+{"level":30,"time":"2025-05-22T23:28:40.259Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-05-22T23:28:40.264Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-05-22T23:28:40.265Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with css=input#email in page."}
+{"level":30,"time":"2025-05-22T23:28:40.295Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-05-22T23:28:40.297Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-05-22T23:28:40.297Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with css=input#password in page."}
+{"level":30,"time":"2025-05-22T23:28:40.338Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-05-22T23:28:40.340Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-22T23:28:40.340Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with role=button[name=\"Iniciar sesión\"] in page."}
+{"level":30,"time":"2025-05-22T23:28:40.374Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method click"}
+{"level":30,"time":"2025-05-22T23:28:40.376Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-05-22T23:28:40.376Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with \"Mi perfil\" in page."}
+{"level":30,"time":"2025-05-22T23:28:42.679Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-05-22T23:28:42.684Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-05-22T23:28:42.689Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Removed page=7c159425-168a-4a40-a4f1-bba2babf233b from context=c65909df-96ef-45e4-8674-16c6773a9a58 page stack"}
+{"level":30,"time":"2025-05-22T23:28:42.712Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:12223:15)
-    at PlaywrightServer.getActiveBrowser (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13119:59)
-    at PlaywrightServer.setTimeout (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13367:57)
-    at Object.onReceiveHalfClose (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js:13119:59)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js:13367:57)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:519:35)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-05-22T02:04:04.802Z","pid":53123,"hostname":"Miguels-MacBook-Air-7.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-22T02:04:04.803Z","pid":53123,"hostname":"Miguels-MacBook-Air-7.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-22T23:28:42.715Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-22T23:28:42.716Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-22T23:28:42.717Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-22T23:28:42.717Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-22T23:28:42.720Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-05-22T23:28:42.800Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-05-22T23:28:42.800Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-05-22T23:28:42.800Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-05-22T23:28:42.802Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-05-22T23:28:42.802Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-05-22T23:28:42.804Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method newContext"}
+{"level":30,"time":"2025-05-22T23:28:42.802Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-05-22T23:28:42.802Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Trace file: "}
+{"level":30,"time":"2025-05-22T23:28:42.804Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Changed active context"}
+{"level":30,"time":"2025-05-22T23:28:42.806Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-05-22T23:28:42.806Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-05-22T23:28:42.831Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-05-22T23:28:42.832Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Changed active page"}
+{"level":30,"time":"2025-05-22T23:28:43.522Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-05-22T23:28:43.524Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-05-22T23:28:43.524Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with \"Loading...\" in page."}
+{"level":30,"time":"2025-05-22T23:28:44.315Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-05-22T23:28:44.318Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-05-22T23:28:44.318Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with css=input#email in page."}
+{"level":30,"time":"2025-05-22T23:28:44.336Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-05-22T23:28:44.338Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-05-22T23:28:44.338Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with css=input#password in page."}
+{"level":30,"time":"2025-05-22T23:28:44.374Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-05-22T23:28:44.376Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-22T23:28:44.376Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with role=button[name=\"Iniciar sesión\"] in page."}
+{"level":30,"time":"2025-05-22T23:28:44.406Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method click"}
+{"level":30,"time":"2025-05-22T23:28:44.408Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-05-22T23:28:44.408Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with \"Error al Iniciar sesión: Request failed with status code 401\" in page."}
+{"level":30,"time":"2025-05-22T23:28:45.699Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-05-22T23:28:45.703Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-05-22T23:28:45.706Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Removed page=2a66b229-423c-4d34-8fd5-0bab699d6bcb from context=fbecb5b8-e602-4a16-964a-2d84cc0af764 page stack"}
+{"level":30,"time":"2025-05-22T23:28:45.730Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:12223:15)
-    at PlaywrightServer.getActiveBrowser (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13119:59)
-    at PlaywrightServer.setTimeout (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13367:57)
-    at Object.onReceiveHalfClose (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (/Users/miguelmendoza/Documents/Tec/6th/callsight-testing/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js:13119:59)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js:13367:57)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:519:35)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-05-22T02:04:04.807Z","pid":53123,"hostname":"Miguels-MacBook-Air-7.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-22T02:04:04.807Z","pid":53123,"hostname":"Miguels-MacBook-Air-7.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-22T02:04:04.829Z","pid":53123,"hostname":"Miguels-MacBook-Air-7.local","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-05-22T02:04:04.830Z","pid":53123,"hostname":"Miguels-MacBook-Air-7.local","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-05-22T23:28:45.733Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-22T23:28:45.733Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-22T23:28:45.734Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-22T23:28:45.734Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-22T23:28:45.737Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-05-22T23:28:45.816Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-05-22T23:28:45.817Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-05-22T23:28:45.817Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-05-22T23:28:45.819Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-05-22T23:28:45.819Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-05-22T23:28:45.819Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-05-22T23:28:45.819Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Trace file: "}
+{"level":30,"time":"2025-05-22T23:28:45.820Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Changed active context"}
+{"level":30,"time":"2025-05-22T23:28:45.820Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method newContext"}
+{"level":30,"time":"2025-05-22T23:28:45.821Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-05-22T23:28:45.821Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-05-22T23:28:45.846Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-05-22T23:28:45.846Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Changed active page"}
+{"level":30,"time":"2025-05-22T23:28:46.486Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-05-22T23:28:46.488Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-05-22T23:28:46.488Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with \"Loading...\" in page."}
+{"level":30,"time":"2025-05-22T23:28:47.289Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-05-22T23:28:47.292Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-05-22T23:28:47.292Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with css=input#email in page."}
+{"level":30,"time":"2025-05-22T23:28:47.316Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-05-22T23:28:47.318Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-05-22T23:28:47.318Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with css=input#password in page."}
+{"level":30,"time":"2025-05-22T23:28:47.355Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-05-22T23:28:47.356Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-22T23:28:47.356Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with role=button[name=\"Iniciar sesión\"] in page."}
+{"level":30,"time":"2025-05-22T23:28:47.389Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method click"}
+{"level":30,"time":"2025-05-22T23:28:47.390Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-05-22T23:28:47.390Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Strict mode is enabled, find Locator with \"Error al Iniciar sesión: Request failed with status code 401\" in page."}
+{"level":30,"time":"2025-05-22T23:28:48.684Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-05-22T23:28:48.691Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-05-22T23:28:48.694Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Removed page=123053b9-58fd-47f0-8fd4-eb3cedffe320 from context=f9cbab86-0e10-44cc-99a4-a82ad7247f6e page stack"}
+{"level":30,"time":"2025-05-22T23:28:48.717Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js:13119:59)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js:13367:57)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-05-22T23:28:48.720Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-22T23:28:48.720Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js:13119:59)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/index.js:13367:57)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-05-22T23:28:48.723Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-22T23:28:48.723Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-22T23:28:48.746Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-05-22T23:28:48.747Z","pid":38847,"hostname":"MacBook-Pro-de-Regina-3.local","msg":"End of node method closeAllBrowsers"}
